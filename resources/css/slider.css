@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+div#galeria {
+    background: #fff;
+    width: 700px;
+    height: 400px;
+    display: block;
+    overflow: hidden;
+    border: 2px solid pink;
+    margin: 100px auto;
+    position: relative;
+}
+
+div#galeria div#buttons{
+    display: none;
+    position: absolute;
+    margin: 5px;
+    z-index: 9;
+}
+
+div#galeria div#buttons a {
+    text-decoration: none;
+    color: #F5F6F7;
+    background: #ffbd00;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    font: 23pt sans-serif;
+    text-align: center;
+    opacity: .7;
+}
+
+div#galeria ul {
+    list-style: none;
+    display: table;
+    position: relative;
+    width: 9999%;
+}
+
+div#galeria ul li{
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+}
+
+div#galeria ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+div#galeria ul li span{
+    background: #333;
+    display: table;
+    width: 660px;
+    opacity: .7;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    padding: 10px;
+    z-index: 99;
+    color: #F5F6F7;
+}
+
+
