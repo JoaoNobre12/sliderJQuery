@@ -1,3 +1,0 @@
-div_bg: 			#33373e
-div_cabesalho/div_centro:	#2e3138
-div_rodape:			#40728d
